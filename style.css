@@ -78,7 +78,6 @@ body {
     display: flex;
     justify-content: space-between;
     flex: 1 1 auto;
-    gap: 64px;
     text-align: center;
 }
 
@@ -114,6 +113,39 @@ body {
     align-self: flex-end;
 }
 
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 32px;
+    margin: 0 80px;
+}
+
+.box {
+    display: flex;
+    flex: 1;
+    background-color: #3882F6;
+    padding: 50px 0;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+.prompt {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.prompt p {
+    color: #F9FAF8;
+}
+
+#main-prompt {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
 button {
     max-width: fit-content;
     padding: 10px 32px;
@@ -123,6 +155,10 @@ button {
     font-weight: bold;
     border-radius: 8px;
     background-color: #3882F6;
+}
+
+#signup-button {
+    border: 2px solid #F9FAF8;
 }
 
 img {
