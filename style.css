@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family:  Roboto, Oxygen, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 16px;
+}
+
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
