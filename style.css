@@ -59,6 +59,33 @@ body {
     color: #F9FAF8;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 16px;
+    padding-bottom: 64px;
+}
+
+.information h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 32px;
+}
+
+.info-holder {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    gap: 64px;
+    text-align: center;
+}
+
+.info {
+    max-width: 200px;
+}
+
 button {
     max-width: fit-content;
     padding: 10px 32px;
@@ -68,6 +95,10 @@ button {
     font-weight: bold;
     border-radius: 8px;
     background-color: #3882F6;
+}
+
+img {
+    max-height: 200px;
 }
 
 .image {
